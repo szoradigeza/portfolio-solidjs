@@ -20,6 +20,8 @@
   /*   background-repeat: no-repeat; */
   background-size: cover;
   height: 100%;
+  width: 100%;
+  overflow-y: scroll;
 }
 
 .main {
@@ -58,7 +60,7 @@ p.super-small {
 #experience-container::before {
   content: "";
   z-index: -1;
-  animation: expand 5s;
+  animation: expand 3s;
 }
 
 @media (min-width: 768px) {
@@ -66,4 +68,9 @@ p.super-small {
     animation: expand 5s;
     z-index: -1;
   }
+}
+
+li::before {
+  content: "• ";
+  color: white; /* or whatever color you prefer */
 }

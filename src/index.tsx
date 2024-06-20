@@ -17,7 +17,7 @@ if (import.meta.env.DEV && !(root instanceof HTMLElement)) {
 
 render(
   () => (
-    <Router>
+    <Router base={"/portfolio-solidjs"}>
       <NavigationProvider>
         <App />
       </NavigationProvider>

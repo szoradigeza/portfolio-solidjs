@@ -12,9 +12,9 @@ const App: Component = () => {
       <div class="main">
         <div class="back-img">
           <div class="flex flex-col	justify-center items-center pb-20">
-            <div class="sm:w-full sm: h-auto lg:w-2/3 text-white mt-10 bg-black  w-full rounded-2xl shadow-lg bg-opacity-80 backdrop-filter backdrop-blur-lg ">
+            <div class="max-w-[800px] sm:w-full sm: h-auto lg:w-2/3 text-white mt-10 bg-black  w-full rounded-2xl shadow-lg bg-opacity-80 backdrop-filter backdrop-blur-lg ">
               <Navigation />
-              <div class="flex h-[calc(100%-64px)] flex-col justify-between	">
+              <div class="flex  flex-col justify-between	">
                 <Routes>
                   {navigationElements.map((element) => (
                     <Route path={element.path} component={element.component} />

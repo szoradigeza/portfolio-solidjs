@@ -74,3 +74,35 @@ li::before {
   content: "• ";
   color: white; /* or whatever color you prefer */
 }
+
+.typed-out {
+  overflow: hidden;
+  border-right: 0.1em solid orange;
+  border-radius: 2px;
+  white-space: nowrap;
+  animation:
+    typing 1.2s steps(20, end) forwards,
+    blinking 1s infinite;
+  font-size: 1.6rem;
+  width: 0;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  50% {
+    border-right: 0.1em solid orange;
+  }
+  to {
+    width: 100%;
+    border-right: 0px;
+  }
+}
+@keyframes blinking {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: white;
+  }
+}

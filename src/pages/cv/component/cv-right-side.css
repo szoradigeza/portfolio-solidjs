@@ -1,0 +1,123 @@
+.duration {
+  float: left;
+  margin-left: 20px;
+}
+.education-name {
+  float: left;
+  margin-left: 40px;
+  font-weight: bold;
+  margin-top: 1mm;
+  font-size: 18px;
+}
+.experience {
+  height: 10mm;
+  width: 100%;
+  margin-top: 5mm;
+  font-size: 18px;
+}
+
+.education {
+  height: 10mm;
+  width: 100%;
+  margin-top: 8mm;
+  font-size: 18px;
+}
+
+.first-experience {
+  height: 25px;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+#last-experience {
+  margin-bottom: 18px;
+}
+.present-work-name {
+  float: left;
+  margin-left: 35px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.work-description {
+  margin-top: 6mm;
+  margin-left: 40px;
+  font-size: 20px;
+  color: seagreen;
+}
+
+.line {
+  border-bottom: 1px solid #cccccc;
+  position: relative;
+  margin-left: 15px;
+  width: 130mm;
+  margin-top: 10px;
+}
+
+.experience-container {
+  flex-direction: row;
+  padding-top: 0px;
+  margin-top: 15mm;
+  height: 270mm;
+}
+.second-title {
+  background-color: #3f51b5;
+  margin-top: 30px;
+  color: white;
+  margin-left: 40px;
+  border-radius: 5px 20px 5px;
+}
+
+.programming-language {
+  font-size: 20px;
+  color: rgb(255, 186, 47);
+}
+
+ul.programming-ul {
+  margin-left: -25px;
+}
+
+.project-description {
+  margin-left: 40px;
+  font-size: 20px;
+  color: seagreen;
+}
+.project-name {
+  font-size: 23px;
+  margin-top: 10px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.first-project-name {
+  font-size: 23px;
+  margin-top: 10px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.more-project-text {
+  color: rgb(255, 186, 47);
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.name-container {
+  color: white;
+  margin-left: 60mm;
+  padding-top: 90px;
+  height: 180px;
+}
+
+.web-developer {
+  font-size: 20px;
+  color: rgb(255, 186, 47);
+  margin-top: -15px;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+

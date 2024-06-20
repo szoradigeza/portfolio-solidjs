@@ -11,15 +11,10 @@ import navigationElements from "../constants/navigationElements";
 export const NavigationContext = createContext();
 
 export function NavigationProvider(props) {
-  const [state, setState] = createStore({ idxActiveNav: 0 });
-  const activeNav = [
-    state,
-    (idxActiveNav) => setState({ idxActiveNav }),
-    navigationElements[state.idxActiveNav],
-  ];
+  const [activeIdx, setActiveIdx] = createSignal(null);
 
   return (
-    <NavigationContext.Provider value={activeNav}>
+    <NavigationContext.Provider value={[activeIdx, setActiveIdx]}>
       {props.children}
     </NavigationContext.Provider>
   );

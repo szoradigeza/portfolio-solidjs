@@ -31,7 +31,7 @@ export default function Experience() {
                 <ContiLogo />
               </div>
               <time class="text-center font-medium text-blue-400 md:w-28">
-                Apr 7, 2024
+                Oct 1, 2018
               </time>
             </div>
             <div class="text-xl">
@@ -55,7 +55,7 @@ export default function Experience() {
                 <AccentureLogo />
               </div>
               <time class="text-center font-medium text-blue-400 md:w-28">
-                Apr 7, 2024
+                Jun 1, 2021
               </time>
             </div>
             <div class="text-xl">
@@ -75,7 +75,7 @@ export default function Experience() {
             <div class="flex items-center space-x-4 md:space-x-2 md:space-x-reverse">
               <div class="flex animate-expand items-center justify-center ml-1.5 w-5 h-5 rounded-full bg-white md:order-1"></div>
               <time class="text-center font-medium text-blue-400 md:w-28">
-                Apr 7, 2024
+                Jun 1, 2023
               </time>
             </div>
             <div class="text-xl">
@@ -97,7 +97,7 @@ export default function Experience() {
             <div class="flex items-center space-x-4 md:space-x-2 md:space-x-reverse">
               <div class="flex animate-expand items-center justify-center ml-1.5 w-5 h-5 rounded-full bg-white md:order-1"></div>
               <time class="text-center font-medium text-blue-400 md:w-28">
-                Apr 7, 2024
+                Oct 1, 2023
               </time>
             </div>
             <div class="text-xl">
